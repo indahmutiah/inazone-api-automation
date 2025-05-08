@@ -19,6 +19,6 @@ npm install
 npm run test-inazone
 ```
 
-## License
+## Report Results
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+![Report Results](/assets/report-inazone.png)

@@ -46,7 +46,7 @@ describe("Test API Province", () => {
       const response = await request(url).get(
         `${endpoint_province}/code/73.031`
       );
-      expect(response.status).to.equal(404);
+      expect(response.status).to.equal(400);
     });
     it("Get Province By Code Not Found", async () => {
       const response = await request(url).get(
