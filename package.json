@@ -1,0 +1,19 @@
+{
+  "name": "inazone-api-automation",
+  "version": "1.0.0",
+  "description": "INA Zone API automation using Mocha Chai. This project is a part of the [INA ZONE API](https://github.com/indahmutiah/ina-zone) project.",
+  "main": "index.js",
+  "scripts": {
+    "test-inazone": "mocha test-inazone.spec.js --reporter mochawesome --reporter-options reportDir=reports,reportFilename=Report INA ZONE API Automation"
+  },
+  "keywords": [],
+  "author": "Indah Mutiah MZ",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.2.2",
+    "mochawesome": "^7.1.3",
+    "supertest": "^7.1.0"
+  },
+  "type": "module"
+}
